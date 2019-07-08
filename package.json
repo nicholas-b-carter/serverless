@@ -51,7 +51,9 @@
     "lint": "eslint .",
     "docs": "node scripts/generate-readme.js",
     "simple-integration-test": "jest --maxWorkers=5 simple-suite",
-    "complex-integration-test": "jest --maxWorkers=5 integration"
+    "complex-integration-test": "jest --maxWorkers=5 integration",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jest": {
     "testRegex": "(\\.|/)(tests)\\.js$",
@@ -99,6 +101,8 @@
     "semver-regex": "^1.0.0",
     "shelljs": "^0.6.0",
     "traverse": "^0.6.6",
-    "uuid": "^2.0.2"
-  }
+    "uuid": "^2.0.2",
+    "snyk": "^1.192.3"
+  },
+  "snyk": true
 }
