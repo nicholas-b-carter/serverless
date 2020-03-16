@@ -82,7 +82,7 @@
     "aws-sdk": "^2.7.13",
     "bluebird": "^3.4.0",
     "chalk": "^1.1.1",
-    "download": "^5.0.2",
+    "download": "^6.1.0",
     "filesize": "^3.3.0",
     "fs-extra": "^0.26.7",
     "get-stdin": "^5.0.1",
